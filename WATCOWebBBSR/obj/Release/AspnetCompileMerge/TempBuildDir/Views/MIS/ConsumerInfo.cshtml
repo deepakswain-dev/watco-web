@@ -1,0 +1,93 @@
+﻿
+@{
+    ViewBag.Title = "Consumer Information";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Menu {
+    @Scripts.Render("~/Scripts/MIS/Consumer/menu")
+}
+@Styles.Render("~/AdminLTE/plugins/datatables/css")
+@Styles.Render("~/Content/Map/OLStyle")
+<div class="row">
+    <div class="col-xs-12">
+        <div class="box">
+            <div class="box-header">
+                <div class="form-group" style="display:inline-block;">
+                    <label class="col-md-3 control-label" style="padding-top:.5em;">Zone</label>
+                    <div class="col-md-9">
+                        <select class="form-control" id="pilotZone">
+                            <option value="1">Isaneswar Basti</option>
+                            <option value="2">Kalinga Nagar</option>
+                            <option value="3">Saheed Nagar</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group" style="display:inline-block;">
+                    <label class="col-md-3 control-label" style="padding-top:.5em;">Filter</label>
+                    <div class="col-md-9">
+                        <select class="form-control mtrNonMtr">
+                            <option value="all">All</option>
+                            <option value="metered">Metered</option>
+                            <option value="non-metered">Non-Metered</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group" style="display:inline-block;">
+                    <label class="col-md-3 control-label" style="padding-top:.5em;">Month</label>
+                    <div class="col-md-9">
+                        <select class="form-control">
+                            <option value="0">All</option>
+                            <option value="1">January</option>
+                            <option value="2">February</option>
+                            <option value="3">March</option>
+                            <option value="4">April</option>
+                            <option value="5">May</option>
+                            <option value="6">June</option>
+                            <option value="7">July</option>
+                            <option value="8">August</option>
+                            <option value="9">September</option>
+                            <option value="10">October</option>
+                            <option value="11">November</option>
+                            <option value="12">December</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group" style="display:inline-block;">
+                    <div class="col-md-12">
+                        <input type="button" class="btn btn-primary btn-Report" id="btnViewConsumerInfo" value="View" />
+                    </div>
+                </div>
+                <div class="form-group" style="display:inline-block;">
+                    <div class="col-md-12">
+                        <img src="~/Content/Img/ajax-loader.gif" class="loading-indicator" style="display:none;margin-top:-1em;" />
+                    </div>
+                </div>
+            </div>
+            <div class="box-body" id="divTableDataConsumerInfo"></div>
+        </div>
+
+    </div>
+</div>
+<!-- Map Modal -->
+<div class="modal fade" id="mapModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Consumer Location</h4>
+            </div>
+            <div class="modal-body">
+                <div>
+                    <div style="width: 100%; height: 500px;" id="map"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    @Scripts.Render("~/AdminLTE/plugins/datatables/js")
+    @Scripts.Render("~/Scripts/MIS/Consumer/data")
+    @Scripts.Render("~/Scripts/Map/OLJS")
+    @Scripts.Render("~/Scripts/Map/ModalPop")
+}

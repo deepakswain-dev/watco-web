@@ -1,0 +1,91 @@
+﻿
+@{
+    ViewBag.Title = "Water Supply Information";
+    ViewBag.SubTitle = "[ Region- " + (string)ViewBag.Region + " ]";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Menu {
+    @Scripts.Render("~/Scripts/DashBoard/WaterSupply/menu")
+}
+@Styles.Render("~/AdminLTE/plugins/morris/css")
+@Styles.Render("~/AdminLTE/plugins/bootstrap-wysihtml5/css")
+<div class="row">
+    <div class="col-lg-3 col-xs-6">
+        <div class="small-box bg-light-blue">
+            <div class="inner">
+                <h3>9500 (KLt.)</h3>
+                <p>Total Water Supply Today</p>
+            </div>
+            <div class="icon">
+                <i class="ion ion-stats-bars"></i>
+            </div>
+            <a class="small-box-footer"><i class="fa fa-cog disabled"></i></a>
+        </div>
+    </div>
+    <div class="col-lg-3 col-xs-6">
+        <div class="small-box bg-green">
+            <div class="inner">
+                <h3>64300 (KLt.)</h3>
+                <p>Total Water Supply This Week</p>
+            </div>
+            <div class="icon">
+                <i class="ion ion-stats-bars"></i>
+            </div>
+            <a class="small-box-footer"><i class="fa fa-cog disabled"></i></a>
+        </div>
+    </div>
+    <div class="col-lg-3 col-xs-6">
+        <div class="small-box bg-aqua">
+            <div class="inner">
+                <h3>257200 (KLt.)</h3>
+                <p>Total Water Supply This Month</p>
+            </div>
+            <div class="icon">
+                <i class="ion ion-waterdrop"></i>
+            </div>
+            <a class="small-box-footer"><i class="fa fa-cog disabled"></i></a>
+        </div>
+    </div>
+    <div class="col-lg-3 col-xs-6">
+        <div class="small-box bg-yellow">
+            <div class="inner">
+                <h3>4</h3>
+                <p>Reading From Bulk Meter</p>
+            </div>
+            <div class="icon">
+                <i class="ion ion-ios-analytics-outline"></i>
+            </div>
+            <a class="small-box-footer"><i class="fa fa-cog disabled"></i></a>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="box">
+            <div class="nav-tabs-custom">
+                <ul class="nav nav-tabs pull-right">
+                    <li class="active"><a href="#line-chart" data-toggle="tab">Line</a></li>
+                    <li><a href="#donut-chart" data-toggle="tab">Donut</a></li>
+                    <li class="pull-left header">
+                        <i class="fa fa-inbox"></i>Weekly Water Flow Status
+                    </li>
+                </ul>
+                <div class="tab-content no-padding">
+                    <div class="chart tab-pane active" id="line-chart" style="position: relative; height: 300px;"></div>
+                    <div class="chart tab-pane" id="donut-chart" style="position: relative; height: 300px;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    @Scripts.Render("~/AdminLTE/plugins/jquery-ui/js")
+    <script>$.widget.bridge('uibutton', $.ui.button);</script>
+    @Scripts.Render("~/AdminLTE/plugins/bootstrap-wysihtml5/js")
+    @Scripts.Render("~/AdminLTE/plugins/knob/js")
+    @Scripts.Render("~/AdminLTE/plugins/raphael/js")
+    @Scripts.Render("~/AdminLTE/plugins/morris/js")
+    @Scripts.Render("~/AdminLTE/plugins/datepicker/js")
+    @Scripts.Render("~/Scripts/DashBoard/WaterSupply/data")
+}

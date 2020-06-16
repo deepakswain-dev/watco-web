@@ -1,0 +1,41 @@
+﻿
+@{
+    ViewBag.Title = "MapView";
+    Layout = "~/Views/Shared/_MapLayout.cshtml";
+}
+<style>
+    #progress {
+        position: absolute;
+        left: 0;
+        height: 5px;
+        background: #369;
+        width: 0;
+        transition: width 250ms;
+        z-index: 100;
+    }
+</style>
+<div style="position:relative;">
+    <div id="progress"></div>
+</div>
+<div id="mapContainer">
+    <div style="height:575px;width:100%" id="map"></div>
+</div>
+
+<div id="popup" class="ol-popup">
+    <a href="#" id="popup-closer" class="ol-popup-closer"><img src="~/Content/Img/close.png" /></a>
+    <div id="popup-content" class="ol-popup-content"></div>
+</div>
+@section Scripts {
+    @Scripts.Render("~/AdminLTE/plugins/jquery-ui/js")
+    @*<script>
+        $.widget.bridge('uibutton', $.ui.button);
+    </script>*@
+    @Scripts.Render("~/Scripts/Map/OLJS")
+    @Scripts.Render("~/Scripts/Map/MapInit")
+    @Scripts.Render("~/Scripts/Map/MapQuery")
+    @Scripts.Render("~/Scripts/Map/LSJS")
+    @Scripts.Render("~/Scripts/Map/JSONParser")
+    @Scripts.Render("~/Scripts/Map/ModalPop")
+}
+@Styles.Render("~/Content/Map/OLStyle")
+@Styles.Render("~/Content/Map/LSCSS")

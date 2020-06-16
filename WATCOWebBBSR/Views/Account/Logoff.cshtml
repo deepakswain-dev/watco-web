@@ -1,0 +1,31 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Logoff</title>
+    <style>
+        .logout {
+            margin-top: 20%;
+            margin-left: 20%;
+            margin-right: 20%;
+            background-color: aliceblue;
+            border: solid 1px navy;
+            border-radius: 5px;
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="logout">
+        <h2>You have successfully logged out</h2>
+        <h4>Click<a href="@Url.Action("Login","Login")"> here</a> to login again</h4>
+    </div>
+</body>
+</html>

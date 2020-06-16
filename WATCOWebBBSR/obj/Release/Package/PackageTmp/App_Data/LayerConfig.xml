@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Layer>
+  <GroupLayer Group="Y" Type="checkbox" ID="chkAboriginalCulture" Name="AboriginalCulture" GroupName="Aboriginal Culture">
+    <Layer DisplayName="Declared Aboriginal Place" GeoserverLayerName="cite:EasyEIA_Aboriginal_Place"/>
+    <Layer DisplayName="Native Title Determinations" GeoserverLayerName="cite:EasyEIA_NTD_Register_Nat"/>
+    <Layer DisplayName="Native Title Claims Register" GeoserverLayerName="cite:EasyEIA_NTDA_Register_Nat"/>
+  </GroupLayer>
+  <GroupLayer Group="Y" Type="checkbox" ID="chkEnvironment" Name="Environmental" GroupName="Environmental">
+    <Layer DisplayName="Critical Habitat" GeoserverLayerName="cite:EasyEIA_criticalhabitat2014"/>
+    <Layer DisplayName="Declared Wilderness(NSW)" GeoserverLayerName="cite:EasyEIA_declared_wilderness"/>
+    <Layer DisplayName="Mitchell Landscapes V3" GeoserverLayerName="cite:EasyEIA_Mitchell_Landscapes_v3"/>
+    <Layer DisplayName="SEPP26(Protected Rainforest)" GeoserverLayerName="cite:EasyEIA_SEPP26"/>
+    <Layer DisplayName="Flora" GeoserverLayerName="cite:EasyEIA_threatened_species_flora"/>
+    <Layer DisplayName="Fauna" GeoserverLayerName="cite:EasyEIA_threatened_species_fauna" />
+  </GroupLayer>
+  <GroupLayer Group="Y" Type="checkbox" ID="chkHeritage" Name="Heritage" GroupName="Heritage">
+    <Layer DisplayName="Commonwealth Heritage" GeoserverLayerName="cite:EasyEIA_commonwealth_heritage_public"/>
+    <Layer DisplayName="Heritage (LEP)" GeoserverLayerName="cite:EasyEIA_HER"/>
+    <Layer DisplayName="National Heritage List (Public)" GeoserverLayerName="cite:EasyEIA_National_Heritage"/>
+    <Layer DisplayName="Heritage (State s170)" GeoserverLayerName="cite:EasyEIA_s170_NSW_Geocode"/>
+    <Layer DisplayName="State Heritage Register - Centroids" GeoserverLayerName="cite:EasyEIA_SHR_Centroids"/>
+    <Layer DisplayName="World Heritage (NSW)" GeoserverLayerName="cite:EasyEIA_World_Heritage"/>
+  </GroupLayer>
+  <GroupLayer Group="Y" Type="checkbox" ID="chkLand" Name="Land" GroupName="Land">
+    <Layer DisplayName="Acid Sulfate Soils Risk" GeoserverLayerName="cite:EasyEIA_ass_plan"/>
+    <Layer DisplayName="Contaminated Land" GeoserverLayerName="cite:EasyEIA_epa_notify_sites"/>
+    <Layer DisplayName="Landuse (2007)" GeoserverLayerName="cite:EasyEIA_Landuse"/>
+    <Layer DisplayName="Protected Riparian" GeoserverLayerName="cite:EasyEIA_Vulnerablelands_Protected_Riparian"/>
+    <Layer DisplayName="Special Category" GeoserverLayerName="cite:EasyEIA_Vulnerable_Lands_Special_Category"/>
+    <Layer DisplayName="Steep or Highly Erodible" GeoserverLayerName="cite:EasyEIA_Vulnerable_Lands_Steep_OrHighly_Erodible"/>
+  </GroupLayer>
+  <GroupLayer Group="Y" Type="checkbox" ID="chkWaterways" Name="Waterways" GroupName="Waterways">
+    <Layer DisplayName="Marine Parks" GeoserverLayerName="cite:EasyEIA_Marine_Parks"/>
+    <Layer DisplayName="Ramsar Wetlands" GeoserverLayerName="cite:EasyEIA_Ramsar_Nsw"/>
+    <Layer DisplayName="SEPP 14 (Coastal  Wetlands)" GeoserverLayerName="cite:EasyEIA_SEPP14"/>
+    <Layer DisplayName="Wild Rivers " GeoserverLayerName="cite:EasyEIA_Wild_Rivers"/>
+    <Layer DisplayName="Wild River Catchments" GeoserverLayerName="cite:EasyEIA_Wild_Rivers_Catchment"/>
+  </GroupLayer>
+  <GroupLayer Group="Y" Type="checkbox" ID="chkAdministrativeData" Name="Administrative Data" GroupName="Administrative Data">
+    <Layer DisplayName="LGA" GeoserverLayerName="cite:EasyEIA_lga"/>
+    <Layer DisplayName="NPWS" GeoserverLayerName="cite:EasyEIA_NPWS"/>
+    <Layer DisplayName="Stateforest" GeoserverLayerName="cite:EasyEIA_Stateforest"/>
+    <Layer DisplayName="NSW" GeoserverLayerName="cite:EasyEIA_NSW_State"/>
+  </GroupLayer>
+  <GroupLayer Group="N" Type="hr" ID="hr" Name="hr" GroupName="hr"></GroupLayer>
+  <GroupLayer Group="N" Type="radio" ID="radioOSM" Name="baseImagery" GroupName="Open Street Map"></GroupLayer>
+  <GroupLayer Group="N" Type="radio" ID="radioLPIImage" Name="baseImagery" GroupName="Imagery"></GroupLayer>
+  <GroupLayer Group="N" Type="radio" ID="radioLPIBase" Name="baseImagery" GroupName="Basemap"></GroupLayer>
+</Layer>

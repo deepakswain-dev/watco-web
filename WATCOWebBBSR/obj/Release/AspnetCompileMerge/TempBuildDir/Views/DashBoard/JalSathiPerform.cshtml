@@ -1,0 +1,137 @@
+﻿
+@{
+    ViewBag.Title = "JalSathi Perfomance";
+    ViewBag.SubTitle = "[ Region- " + (string)ViewBag.Region + " ]";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section Menu {
+    @Scripts.Render("~/Scripts/DashBoard/Jalsathi/menu")
+}
+@Styles.Render("~/AdminLTE/plugins/morris/css")
+@Styles.Render("~/AdminLTE/plugins/bootstrap-wysihtml5/css")
+<div class="row">
+    <div class="col-lg-3 col-xs-6">
+        <div class="small-box bg-aqua">
+            <div class="inner">
+                <h3>7</h3>
+                <p>No. Of Jalsathi Engaged</p>
+            </div>
+            <div class="icon">
+                <i class="ion ion-waterdrop"></i>
+            </div>
+            <a class="small-box-footer"><i class="fa fa-cog disabled"></i></a>
+        </div>
+    </div>
+    <div class="col-lg-3 col-xs-6">
+        <div class="small-box bg-green">
+            <div class="inner">
+                <h3>0</h3>
+                <p>No. Of Bill Collected By Jalsathi Today</p>
+            </div>
+            <div class="icon">
+                <i class="ion ion-stats-bars"></i>
+            </div>
+            <a class="small-box-footer"><i class="fa fa-cog disabled"></i></a>
+        </div>
+    </div>
+    <div class="col-lg-3 col-xs-6">
+        <div class="small-box bg-light-blue">
+            <div class="inner">
+                <h3>0</h3>
+                <p>Bill Amount Collected By Jalsathi Today (Rs.)</p>
+            </div>
+            <div class="icon">
+                <i class="fa fa-rupee"></i>
+            </div>
+            <a class="small-box-footer"><i class="fa fa-cog disabled"></i></a>
+        </div>
+    </div>
+    <div class="col-lg-3 col-xs-6">
+        <div class="small-box bg-yellow">
+            <div class="inner">
+                <h3>1690</h3>
+                <p>No Of Bill Collected By Jalsathi This Month</p>
+            </div>
+            <div class="icon">
+                <i class="ion ion-ios-analytics-outline"></i>
+            </div>
+            <a class="small-box-footer"><i class="fa fa-cog disabled"></i></a>
+        </div>
+    </div>
+    <div class="col-lg-3 col-xs-6">
+        <div class="small-box bg-light-blue">
+            <div class="inner">
+                <h3>338359</h3>
+                <p>Bill Amount Collected This Month</p>
+            </div>
+            <div class="icon">
+                <i class="fa fa-rupee"></i>
+            </div>
+            <a class="small-box-footer"><i class="fa fa-cog disabled"></i></a>
+        </div>
+    </div>
+    <div class="col-lg-3 col-xs-6">
+        <div class="small-box bg-lime-active">
+            <div class="inner">
+                <h3>0</h3>
+                <p>Water Sample Tested Today</p>
+            </div>
+            <div class="icon">
+                <i class="fa fa-user"></i>
+            </div>
+            <a class="small-box-footer"><i class="fa fa-cog disabled"></i></a>
+        </div>
+    </div>
+    <div class="col-lg-3 col-xs-6">
+        <div class="small-box bg-green-gradient">
+            <div class="inner">
+                <h3>189</h3>
+                <p>Water Sample Tested This Month</p>
+            </div>
+            <div class="icon">
+                <i class="fa fa-rupee"></i>
+            </div>
+            <a class="small-box-footer"><i class="fa fa-cog disabled"></i></a>
+        </div>
+    </div>
+    <div class="col-lg-3 col-xs-6">
+        <div class="small-box bg-light-blue">
+            <div class="inner">
+                <h3>20697</h3>
+                <p>Incentive Paid This Month</p>
+            </div>
+            <div class="icon">
+                <i class="fa fa-rupee"></i>
+            </div>
+            <a class="small-box-footer"><i class="fa fa-cog disabled"></i></a>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="box">
+            <div class="nav-tabs-custom">
+                <ul class="nav nav-tabs pull-right">
+                    <li class="active"><a href="#bar-chart" data-toggle="tab">Bar</a></li>
+                    <li><a href="#donut-chart" data-toggle="tab">Donut</a></li>
+                    <li class="pull-left header">
+                        <i class="fa fa-inbox"></i>Jalsathi Performance
+                    </li>
+                </ul>
+                <div class="tab-content no-padding">
+                    <div class="chart tab-pane active" id="bar-chart" style="position: relative; height: 350px;"></div>
+                    <div class="chart tab-pane" id="donut-chart" style="position: relative; height: 300px;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    @Scripts.Render("~/AdminLTE/plugins/jquery-ui/js")
+    <script>$.widget.bridge('uibutton', $.ui.button);</script>
+    @Scripts.Render("~/AdminLTE/plugins/bootstrap-wysihtml5/js")
+    @Scripts.Render("~/AdminLTE/plugins/knob/js")
+    @Scripts.Render("~/AdminLTE/plugins/raphael/js")
+    @Scripts.Render("~/AdminLTE/plugins/morris/js")
+    @Scripts.Render("~/Scripts/DashBoard/Jalsathi/data")
+}

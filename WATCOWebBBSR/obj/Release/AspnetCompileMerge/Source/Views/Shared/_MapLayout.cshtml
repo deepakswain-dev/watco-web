@@ -1,0 +1,404 @@
+﻿@using WATCOWebBBSR.Extensions
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Drink From Tap</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+
+    @Styles.Render("~/AdminLTE/plugins/font-awesome/css")
+    @Styles.Render("~/AdminLTE/plugins/ionicons/css")
+    @Styles.Render("~/AdminLTE/bootstrap/css")
+    @Styles.Render("~/AdminLTE/dist/css")
+    @Styles.Render("~/AdminLTE/dist/css/skins")
+
+</head>
+<body class="hold-transition skin-blue sidebar-mini">
+    <div class="wrapper">
+        <header class="main-header">
+            <a href="@Url.Action("Container", "DashBoard")" class="logo">
+                <span class="logo-mini"><b>WATCO</b></span>
+                <span class="logo-lg"><i class="fa fa-tint"></i><b> &nbsp; Drink </b> From<b> Tap</b></span>
+            </a>
+            <nav class="navbar navbar-static-top" role="navigation">
+                <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+                    <span class="sr-only">Toggle Navigation</span>
+                </a>
+                <div class="navbar-custom-menu">
+                    <ul class="nav navbar-nav">
+                        @*<li class="dropdown messages-menu">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <i class="fa fa-envelope-o"></i>
+                                    <span class="label label-success">4</span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li class="header">You have 4 messages</li>
+                                    <li>
+                                        <ul class="menu">
+                                            <li>
+                                                <a href="#">
+                                                    <div class="pull-left">
+                                                        <img src="~/Admin/dist/img/user.svg" class="img-circle" alt="User Image">
+                                                    </div>
+                                                    <h4>
+                                                        Support Team
+                                                        <small><i class="fa fa-clock-o"></i> 5 mins</small>
+                                                    </h4>
+                                                    <p>Why not buy a new awesome theme?</p>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <div class="pull-left">
+                                                        <img src="~/Admin/dist/img/user.svg" class="img-circle" alt="User Image">
+                                                    </div>
+                                                    <h4>
+                                                        AdminLTE Design Team
+                                                        <small><i class="fa fa-clock-o"></i> 2 hours</small>
+                                                    </h4>
+                                                    <p>Why not buy a new awesome theme?</p>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <div class="pull-left">
+                                                        <img src="~/Admin/dist/img/user.svg" class="img-circle" alt="User Image">
+                                                    </div>
+                                                    <h4>
+                                                        Developers
+                                                        <small><i class="fa fa-clock-o"></i> Today</small>
+                                                    </h4>
+                                                    <p>Why not buy a new awesome theme?</p>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <div class="pull-left">
+                                                        <img src="~/Admin/dist/img/user.svg" class="img-circle" alt="User Image">
+                                                    </div>
+                                                    <h4>
+                                                        Sales Department
+                                                        <small><i class="fa fa-clock-o"></i> Yesterday</small>
+                                                    </h4>
+                                                    <p>Why not buy a new awesome theme?</p>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <div class="pull-left">
+                                                        <img src="~/Admin/dist/img/user.svg" class="img-circle" alt="User Image">
+                                                    </div>
+                                                    <h4>
+                                                        Reviewers
+                                                        <small><i class="fa fa-clock-o"></i> 2 days</small>
+                                                    </h4>
+                                                    <p>Why not buy a new awesome theme?</p>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="footer"><a href="#">See All Messages</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown notifications-menu">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <i class="fa fa-bell-o"></i>
+                                    <span class="label label-warning">10</span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li class="header">You have 10 notifications</li>
+                                    <li>
+                                        <ul class="menu">
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-users text-aqua"></i> 5 new members joined today
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-warning text-yellow"></i> Very long description here that may not fit into the
+                                                    page and may cause design problems
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-users text-red"></i> 5 new members joined
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-shopping-cart text-green"></i> 25 sales made
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-user text-red"></i> You changed your username
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="footer"><a href="#">View all</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown tasks-menu">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <i class="fa fa-flag-o"></i>
+                                    <span class="label label-danger">9</span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li class="header">You have 9 tasks</li>
+                                    <li>
+                                        <ul class="menu">
+                                            <li>
+                                                <a href="#">
+                                                    <h3>
+                                                        Design some buttons
+                                                        <small class="pull-right">20%</small>
+                                                    </h3>
+                                                    <div class="progress xs">
+                                                        <div class="progress-bar progress-bar-aqua" style="width: 20%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                                                            <span class="sr-only">20% Complete</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <h3>
+                                                        Create a nice theme
+                                                        <small class="pull-right">40%</small>
+                                                    </h3>
+                                                    <div class="progress xs">
+                                                        <div class="progress-bar progress-bar-green" style="width: 40%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                                                            <span class="sr-only">40% Complete</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <h3>
+                                                        Some task I need to do
+                                                        <small class="pull-right">60%</small>
+                                                    </h3>
+                                                    <div class="progress xs">
+                                                        <div class="progress-bar progress-bar-red" style="width: 60%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                                                            <span class="sr-only">60% Complete</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <h3>
+                                                        Make beautiful transitions
+                                                        <small class="pull-right">80%</small>
+                                                    </h3>
+                                                    <div class="progress xs">
+                                                        <div class="progress-bar progress-bar-yellow" style="width: 80%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                                                            <span class="sr-only">80% Complete</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="footer">
+                                        <a href="#">View all tasks</a>
+                                    </li>
+                                </ul>
+                            </li>*@
+                        @Html.Partial("_LoginPartial")
+                        @*<li>
+                                <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>
+                            </li>*@
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <aside class="main-sidebar">
+            <section class="sidebar">
+                <div class="user-panel">
+                    <div class="pull-left image">
+                        <img src="~/Admin/dist/img/user.svg" class="img-circle" alt="User Image">
+                    </div>
+                    <div class="pull-left info">
+                        <p>@User.Identity.GetUserNameIdentifier()</p>
+                        <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+                    </div>
+                </div>
+                <ul class="sidebar-menu">
+                    <li class="header">MAIN NAVIGATION</li>
+
+                    <li id="left-sidebar-menu-dashboard" class="treeview">
+                        <a href="#">
+                            <i class="fa fa-dashboard"></i> <span>Dashboard</span> <i class="fa fa-angle-left pull-right"></i>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li id="left-sidebar-menu-dashboard-dashboardcontainer"><a href="@Url.Action("Container", "DashBoard")"><i class="fa fa-circle-o"></i>Home Dashboard</a></li>
+                            <li id="left-sidebar-menu-dashboard-watersupplyinfo"><a href="@Url.Action("WaterSupplyInfo", "DashBoard")"><i class="fa fa-circle-o"></i>Water Supply</a></li>
+                            <li id="left-sidebar-menu-dashboard-consumerinfo"><a href="@Url.Action("ConsumerInfo", "DashBoard")"><i class="fa fa-circle-o"></i>Consumer</a></li>
+                            <li id="left-sidebar-menu-dashboard-assetoemactivity"><a href="@Url.Action("AssetOEMActivity", "DashBoard")"><i class="fa fa-circle-o"></i>Asset</a></li>
+                            <li id="left-sidebar-menu-dashboard-waterquality"><a href="@Url.Action("WaterQualityMonitor", "DashBoard")"><i class="fa fa-circle-o"></i>Water Quality & Test</a></li>
+                            <li id="left-sidebar-menu-dashboard-consumergrievance"><a href="@Url.Action("ConsumerGrievance", "DashBoard")"><i class="fa fa-circle-o"></i>Consumer Grievance</a></li>
+                            <li id="left-sidebar-menu-dashboard-jalsathiperform"><a href="@Url.Action("JalsathiPerform", "DashBoard")"><i class="fa fa-circle-o"></i>JalSathi Performance</a></li>
+                            @*<li id="left-sidebar-menu-dashboard-userchargeinfo"><a href="@Url.Action("UserChargeInfo", "DashBoard")"><i class="fa fa-circle-o"></i>User Charges Information</a></li>*@
+                        </ul>
+                    </li>
+
+                    <li id="left-sidebar-menu-GIS" class="treeview">
+                        <a href="#">
+                            <i class="fa fa-map-o"></i> <span>GIS</span>
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li id="left-sidebar-menu-GIS-MapView"><a href="@Url.Action("MapView", "Map")"><i class="fa fa-circle-o"></i>Map view</a></li>
+                            @*<li><a href="#"><i class="fa fa-circle-o"></i>Basemap</a></li>
+                                <li>
+                                    <ul>
+                                        <li><input id="visible0" class="visible" type="checkbox" /><span>Visibility</span></li>
+                                    </ul>
+                                    <label><span>Opacity</span></label>
+                                    <input class="opacity" type="range" min="0" max="1" step="0.01" />
+                                </li>*@
+                            <li>
+                                <a href="#"><i class="fa fa-circle-o"></i>Zone Boundary<i class="fa fa-angle-left pull-right"></i></a>
+                                <ul class="treeview-menu">
+                                    <li><input type="checkbox" id="chkIshaneswarBoundary" name='checkboxWMS' value='cite:bbsr_ishaneswar_basti_boundary' /><a style="display:inline-block">Ishaneswar Boundary</a></li>
+                                    <li><input type="checkbox" id="chkDivisionBoundary" name='checkboxWMS' value='cite:bbsr_division_boundary' /><a style="display:inline-block">Division Boundary</a></li>
+                                    <li><input type="checkbox" id="chkSubDivisionBoundary" name='checkboxWMS' value='cite:bbsr_subv_division_boundary' /><a style="display:inline-block">Sub-Division Boundary</a></li>
+                                    <li><input type="checkbox" id="chkSectionBoundary" name='checkboxWMS' value='cite:bbsr_section_boundary' /><a style="display:inline-block">Section Boundary</a></li>
+                                    <li><input type="checkbox" id="chkWardBoundary" name='checkboxWMS' value='cite:bbsr_ward_boudary' /><a style="display:inline-block">Ward Boundary</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-circle-o"></i>Zone Assets<i class="fa fa-angle-left pull-right"></i></a>
+                                <ul class="treeview-menu">
+                                    @*<li><input type="checkbox" id="chkNode" name='checkboxWMS' value='cite:bbsr_node' /><a style="display:inline-block">Node</a></li>*@
+                                    <li><input type="checkbox" id="chkConsumer" name='checkboxWMS' value='cite:bbsr_consumer' /><a style="display:inline-block">Consumer</a></li>
+                                    <li><input type="checkbox" id="chkFlowMeter" name='checkboxWMS' value='cite:bbsr_flow_meter' /><a style="display:inline-block">Flow Meter</a></li>
+                                    <li><input type="checkbox" id="chkValve" name='checkboxWMS' value='cite:bbsr_valve' /><a style="display:inline-block">Valve</a></li>
+                                    <li><input type="checkbox" id="chkPump" name='checkboxWMS' value='cite:bbsr_pump' /><a style="display:inline-block">Pump</a></li>
+                                    <li><input type="checkbox" id="chkReservoir" name='checkboxWMS' value='cite:bbsr_reservoir' /><a style="display:inline-block">Service Reservoir</a></li>
+                                    @*<li><input type="checkbox" id="chkStructure" name='checkboxWMS' value='cite:bbsr_structure' /><a style="display:inline-block">Structure</a></li>
+                                        <li><input type="checkbox" id="chkInstrument" name='checkboxWMS' value='cite:bbsr_instrument' /><a style="display:inline-block">Instrument</a></li>*@
+                                    <li><input type="checkbox" id="chkConnection" name='checkboxWMS' value='cite:bbsr_connection' /><a style="display:inline-block">House Connection</a></li>
+                                    <li><input type="checkbox" id="chkWaterSupplyLine" name='checkboxWMS' value='cite:bbsr_water_supply_line' /><a style="display:inline-block">Distribution Network</a></li>
+                                    <li><input type="checkbox" id="chkClearWaterLine" name='checkboxWMS' value='cite:bbsr_clear_water_line' /><a style="display:inline-block">Clear Water Transmission Main</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-circle-o"></i>Map Legend<i class="fa fa-angle-left pull-right"></i></a>
+                                <ul class="treeview-menu">
+                                    <li>
+                                        <div id="divLegend"></div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-circle-o"></i>Map Query<i class="fa fa-angle-left pull-right"></i></a>
+                                <ul class="treeview-menu">
+                                    <li>
+                                        <div class="form-group querycontainer">
+                                            <a>Select Asset</a>
+
+                                            @Html.DropDownList("AllAssets", (IEnumerable<SelectListItem>)ViewData["AllAssets"], new { @class = "form-control AllAssets margin-bottom-5" });
+
+                                            <input type="range" min="10" max="500" name="rangeBuffer" id="rangeBuffer" />
+                                            <span id="spanBufferValue" class="text-info" value="25">250</span>
+                                            <span id="spanClickedLonLat" class="text-info" style="text-align: center;" value="">[Click on map]</span>
+                                            <div class="row text-center">
+                                                <button class="btn btn-primary" id="btnAssetQuery" onclick="showAssetMap();">View</button>
+                                                <button class="btn btn-primary" id="btnClearAssetQuery" onclick="clearMap();">Clear</button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li id="left-sidebar-menu-tables" class="treeview">
+                        <a href="#">
+                            <i class="fa fa-table"></i><span>MIS</span>
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li id="left-sidebar-menu-MIS-consumerinfo"><a href="@Url.Action("ConsumerInfo", "MIS")"><i class="fa fa-circle-o"></i>Consumer Information</a></li>
+                            @*<li id="left-sidebar-menu-MIS-consumerbillinfo"><a href="@Url.Action("ConsumerBillInfo", "MISXIZ")"><i class="fa fa-circle-o"></i>Consumer Billing Information</a></li>*@
+                            <li id="left-sidebar-menu-MIS-assetinfo"><a href="@Url.Action("AssetInfo", "MIS")"><i class="fa fa-circle-o"></i>Asset Information</a></li>
+                        </ul>
+                    </li>
+
+                    @*<li id="left-sidebar-menu-charts" class="treeview">
+                            <a href="#">
+                                <i class="fa fa-pie-chart"></i>
+                                <span>Charts</span>
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </a>
+                            <ul class="treeview-menu">
+                                <li id="left-sidebar-menu-charts-chartjs"><a href="@Url.Action("ChartJs", "Charts")"><i class="fa fa-circle-o"></i> ChartJS</a></li>
+                                <li id="left-sidebar-menu-charts-morris"><a href="@Url.Action("Morris", "Charts")"><i class="fa fa-circle-o"></i> Morris</a></li>
+                                <li id="left-sidebar-menu-charts-flot"><a href="@Url.Action("Flot", "Charts")"><i class="fa fa-circle-o"></i> Flot</a></li>
+                                <li id="left-sidebar-menu-charts-inline"><a href="@Url.Action("Inline", "Charts")"><i class="fa fa-circle-o"></i> Inline charts</a></li>
+                            </ul>
+                        </li>
+
+                        <li id="left-sidebar-menu-tables" class="treeview">
+                            <a href="#">
+                                <i class="fa fa-table"></i> <span>PLC Report</span>
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </a>
+                            <ul class="treeview-menu">
+                                <li id="left-sidebar-menu-tables-simple"><a href="@Url.Action("Simple", "Tables")"><i class="fa fa-circle-o"></i>Simple tables</a></li>
+                                <li id="left-sidebar-menu-tables-data"><a href="@Url.Action("Data", "Tables")"><i class="fa fa-circle-o"></i>Data tables</a></li>
+                                <li id="left-sidebar-menu-tables-simple"><a href="@Url.Action("Simple", "Tables")"><i class="fa fa-circle-o"></i>Simple tables</a></li>
+                                <li id="left-sidebar-menu-tables-data"><a href="@Url.Action("Data", "Tables")"><i class="fa fa-circle-o"></i>Data tables</a></li>
+                            </ul>
+                        </li>*@
+                </ul>
+            </section>
+        </aside>
+        <div class="content-wrapper">
+            <section class="content-header">
+                <h1>
+                    @ViewBag.Title
+                    <small>@ViewBag.SubTitle</small>
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href="#"><i class="fa fa-dashboard"></i>@ViewBag.SubTitle</a></li>
+                    <li class="active">@ViewBag.Title</li>
+                </ol>
+            </section>
+            <section class="content">
+                @RenderBody()
+            </section>
+        </div>
+        <footer class="main-footer">
+            <div class="pull-right hidden-xs">
+                <b>Version</b> 1.0.0
+            </div>
+            <strong>Copyrights | &copy; 2020 <a href="http://www.watcoodisha.in/">WATCO</a></strong> All rights reserved..
+        </footer>
+        <div class="control-sidebar-bg"></div>
+    </div>
+
+    @Scripts.Render("~/AdminLTE/plugins/jquery/js")
+    @RenderSection("menu", required: false)
+    @Scripts.Render("~/AdminLTE/bootstrap/js")
+    @Scripts.Render("~/AdminLTE/plugins/slimscroll/js")
+    @Scripts.Render("~/AdminLTE/plugins/fastclick/js")
+    @Scripts.Render("~/Scripts/Shared/_Layout")
+    @Scripts.Render("~/AdminLTE/dist/js")
+    @Scripts.Render("~/Scripts/Map/Menu")
+    @RenderSection("scripts", required: false)
+    <script>
+        $('.sidebar-toggle').click(function () {
+            setTimeout(function () {
+                map.updateSize();
+            }, 200);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\obj\Debug\WATCOWebBBSR.csprojAssemblyReference.cache
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\obj\Debug\WATCOWebBBSR.csproj.CoreCompileInputs.cache
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\obj\Debug\WATCOWebBBSR.dll
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\obj\Debug\WATCOWebBBSR.pdb
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\ApplicationInsights.config
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\roslyn\csc.exe
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\roslyn\System.Collections.Immutable.dll
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\roslyn\System.Reflection.Metadata.dll
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\roslyn\vbc.exe
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\roslyn\VBCSCompiler.exe
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\roslyn\VBCSCompiler.exe.config
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\WATCOWebBBSR.dll.config
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\WATCOWebBBSR.dll
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\WATCOWebBBSR.pdb
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\Antlr3.Runtime.dll
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\Microsoft.AI.DependencyCollector.dll
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\Microsoft.AI.Web.dll
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\Microsoft.AI.WindowsServer.dll
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\Microsoft.ApplicationInsights.dll
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\Microsoft.Web.Infrastructure.dll
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\Newtonsoft.Json.dll
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\ODLSystem.BusinessLayer.dll
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\ODLSystem.Library.Common.dll
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\System.Threading.Tasks.Extensions.dll
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\System.Web.Helpers.dll
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\System.Web.Mvc.dll
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\System.Web.Optimization.dll
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\System.Web.Razor.dll
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\System.Web.WebPages.Deployment.dll
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\System.Web.WebPages.dll
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\System.Web.WebPages.Razor.dll
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\WebGrease.dll
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\ODLSystem.PersistenceLayer.dll
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\ODLSystem.DatabaseHelper.dll
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\Npgsql.dll
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\ODLSystem.BusinessLayer.pdb
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\ODLSystem.Library.Common.pdb
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\Microsoft.AI.DependencyCollector.xml
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\Microsoft.AI.Web.xml
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\Microsoft.AI.WindowsServer.xml
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\Microsoft.ApplicationInsights.xml
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\System.Threading.Tasks.Extensions.xml
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\System.Web.Helpers.xml
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\System.Web.Mvc.xml
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\System.Web.Optimization.xml
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\System.Web.Razor.xml
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\System.Web.WebPages.xml
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\System.Web.WebPages.Deployment.xml
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\System.Web.WebPages.Razor.xml
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\Antlr3.Runtime.pdb
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\Newtonsoft.Json.xml
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\ODLSystem.PersistenceLayer.pdb
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\bin\ODLSystem.DatabaseHelper.pdb
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\WATCOWebBBSR\obj\Debug\WATCOWebBBSR.csproj.CopyComplete
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\ApplicationInsights.config
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\roslyn\csc.exe
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\roslyn\vbc.exe
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\roslyn\VBCSCompiler.exe
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\WATCOWebBBSR.dll.config
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\WATCOWebBBSR.dll
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\WATCOWebBBSR.pdb
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\Antlr3.Runtime.dll
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\Microsoft.AI.Web.dll
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\Newtonsoft.Json.dll
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\ODLSystem.BusinessLayer.dll
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\ODLSystem.Library.Common.dll
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\System.Web.Helpers.dll
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\System.Web.Mvc.dll
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\System.Web.Optimization.dll
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\System.Web.Razor.dll
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\System.Web.WebPages.dll
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\System.Web.WebPages.Razor.dll
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\WebGrease.dll
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\ODLSystem.PersistenceLayer.dll
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\ODLSystem.DatabaseHelper.dll
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\Npgsql.dll
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\ODLSystem.BusinessLayer.pdb
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\ODLSystem.Library.Common.pdb
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\Microsoft.AI.Web.xml
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\System.Web.Helpers.xml
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\System.Web.Mvc.xml
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\System.Web.Optimization.xml
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\System.Web.Razor.xml
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\System.Web.WebPages.xml
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\System.Web.WebPages.Razor.xml
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\Antlr3.Runtime.pdb
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\Newtonsoft.Json.xml
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\ODLSystem.PersistenceLayer.pdb
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\bin\ODLSystem.DatabaseHelper.pdb
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\obj\Debug\WATCOWebBBSR.csprojAssemblyReference.cache
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\obj\Debug\WATCOWebBBSR.csproj.CoreCompileInputs.cache
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\obj\Debug\WATCOWebBBSR.csproj.CopyComplete
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\obj\Debug\WATCOWebBBSR.dll
+C:\Users\Deepak\Downloads\WATCOWeb (1)\WATCOWebBBSR\obj\Debug\WATCOWebBBSR.pdb

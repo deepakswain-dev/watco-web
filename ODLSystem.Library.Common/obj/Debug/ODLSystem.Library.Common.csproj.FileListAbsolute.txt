@@ -1,0 +1,40 @@
+E:\Project\My_Project\ODL_System\ODLSystem\ODLSystem.Library.Common\bin\Debug\ODLSystem.Library.Common.dll
+E:\Project\My_Project\ODL_System\ODLSystem\ODLSystem.Library.Common\bin\Debug\ODLSystem.Library.Common.pdb
+E:\Project\My_Project\ODL_System\ODLSystem\ODLSystem.Library.Common\obj\Debug\ODLSystem.Library.Common.dll
+E:\Project\My_Project\ODL_System\ODLSystem\ODLSystem.Library.Common\obj\Debug\ODLSystem.Library.Common.pdb
+E:\Project\My_Project\ODL_System\ODLSystem\ODLSystem.Library.Common\obj\Debug\ODLSystem.Library.Common.csprojResolveAssemblyReference.cache
+D:\Ratikant\Personal\@JICA\WATCO\ODLSystem.Library.Common\bin\Debug\ODLSystem.Library.Common.dll
+D:\Ratikant\Personal\@JICA\WATCO\ODLSystem.Library.Common\bin\Debug\ODLSystem.Library.Common.pdb
+D:\Ratikant\Personal\@JICA\WATCO\ODLSystem.Library.Common\obj\Debug\ODLSystem.Library.Common.csprojAssemblyReference.cache
+D:\Ratikant\Personal\@JICA\WATCO\ODLSystem.Library.Common\obj\Debug\ODLSystem.Library.Common.csproj.CoreCompileInputs.cache
+D:\Ratikant\Personal\@JICA\WATCO\ODLSystem.Library.Common\obj\Debug\ODLSystem.Library.Common.dll
+D:\Ratikant\Personal\@JICA\WATCO\ODLSystem.Library.Common\obj\Debug\ODLSystem.Library.Common.pdb
+E:\@JICA\WATCOWeb\ODLSystem.Library.Common\bin\Debug\ODLSystem.Library.Common.dll
+E:\@JICA\WATCOWeb\ODLSystem.Library.Common\bin\Debug\ODLSystem.Library.Common.pdb
+E:\@JICA\WATCOWeb\ODLSystem.Library.Common\obj\Debug\ODLSystem.Library.Common.csproj.CoreCompileInputs.cache
+E:\@JICA\WATCOWeb\ODLSystem.Library.Common\obj\Debug\ODLSystem.Library.Common.dll
+E:\@JICA\WATCOWeb\ODLSystem.Library.Common\obj\Debug\ODLSystem.Library.Common.pdb
+E:\@JICA\WATCOWeb\ODLSystem.Library.Common\bin\Debug\Npgsql.dll
+E:\@JICA\WATCOWeb\ODLSystem.Library.Common\obj\Debug\ODLSystem.Library.Common.csproj.CopyComplete
+E:\@JICA\WATCOWeb\ODLSystem.Library.Common\obj\Debug\ODLSystem.Library.Common.csprojAssemblyReference.cache
+D:\Ratikant\Personal\@JICA\WATCOWeb\ODLSystem.Library.Common\bin\Debug\ODLSystem.Library.Common.dll
+D:\Ratikant\Personal\@JICA\WATCOWeb\ODLSystem.Library.Common\bin\Debug\ODLSystem.Library.Common.pdb
+D:\Ratikant\Personal\@JICA\WATCOWeb\ODLSystem.Library.Common\bin\Debug\Npgsql.dll
+D:\Ratikant\Personal\@JICA\WATCOWeb\ODLSystem.Library.Common\obj\Debug\ODLSystem.Library.Common.csproj.CoreCompileInputs.cache
+D:\Ratikant\Personal\@JICA\WATCOWeb\ODLSystem.Library.Common\obj\Debug\ODLSystem.Library.Common.csproj.CopyComplete
+D:\Ratikant\Personal\@JICA\WATCOWeb\ODLSystem.Library.Common\obj\Debug\ODLSystem.Library.Common.dll
+D:\Ratikant\Personal\@JICA\WATCOWeb\ODLSystem.Library.Common\obj\Debug\ODLSystem.Library.Common.pdb
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\ODLSystem.Library.Common\bin\Debug\ODLSystem.Library.Common.dll
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\ODLSystem.Library.Common\bin\Debug\ODLSystem.Library.Common.pdb
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\ODLSystem.Library.Common\obj\Debug\ODLSystem.Library.Common.csproj.CoreCompileInputs.cache
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\ODLSystem.Library.Common\obj\Debug\ODLSystem.Library.Common.csproj.CopyComplete
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\ODLSystem.Library.Common\obj\Debug\ODLSystem.Library.Common.dll
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\ODLSystem.Library.Common\obj\Debug\ODLSystem.Library.Common.pdb
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\ODLSystem.Library.Common\obj\Debug\ODLSystem.Library.Common.csprojAssemblyReference.cache
+C:\Users\Deepak\Downloads\WATCOWeb (1)\ODLSystem.Library.Common\bin\Debug\ODLSystem.Library.Common.dll
+C:\Users\Deepak\Downloads\WATCOWeb (1)\ODLSystem.Library.Common\bin\Debug\ODLSystem.Library.Common.pdb
+C:\Users\Deepak\Downloads\WATCOWeb (1)\ODLSystem.Library.Common\obj\Debug\ODLSystem.Library.Common.csprojAssemblyReference.cache
+C:\Users\Deepak\Downloads\WATCOWeb (1)\ODLSystem.Library.Common\obj\Debug\ODLSystem.Library.Common.csproj.CoreCompileInputs.cache
+C:\Users\Deepak\Downloads\WATCOWeb (1)\ODLSystem.Library.Common\obj\Debug\ODLSystem.Library.Common.csproj.CopyComplete
+C:\Users\Deepak\Downloads\WATCOWeb (1)\ODLSystem.Library.Common\obj\Debug\ODLSystem.Library.Common.dll
+C:\Users\Deepak\Downloads\WATCOWeb (1)\ODLSystem.Library.Common\obj\Debug\ODLSystem.Library.Common.pdb

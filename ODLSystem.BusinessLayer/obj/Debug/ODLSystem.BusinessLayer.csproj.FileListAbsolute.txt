@@ -1,0 +1,80 @@
+E:\Project\My_Project\ODL_System\ODLSystem\ODLSystem.BusinessLayer\obj\Debug\ODLSystem.BusinessLayer.csprojResolveAssemblyReference.cache
+E:\Project\My_Project\ODL_System\ODLSystem\ODLSystem.BusinessLayer\bin\Debug\ODLSystem.BusinessLayer.dll
+E:\Project\My_Project\ODL_System\ODLSystem\ODLSystem.BusinessLayer\bin\Debug\ODLSystem.BusinessLayer.pdb
+E:\Project\My_Project\ODL_System\ODLSystem\ODLSystem.BusinessLayer\bin\Debug\ODLSystem.PersistenceLayer.dll
+E:\Project\My_Project\ODL_System\ODLSystem\ODLSystem.BusinessLayer\bin\Debug\ODLSystem.DatabaseHelper.dll
+E:\Project\My_Project\ODL_System\ODLSystem\ODLSystem.BusinessLayer\bin\Debug\ODLSystem.PersistenceLayer.pdb
+E:\Project\My_Project\ODL_System\ODLSystem\ODLSystem.BusinessLayer\bin\Debug\ODLSystem.DatabaseHelper.pdb
+E:\Project\My_Project\ODL_System\ODLSystem\ODLSystem.BusinessLayer\obj\Debug\ODLSystem.BusinessLayer.dll
+E:\Project\My_Project\ODL_System\ODLSystem\ODLSystem.BusinessLayer\obj\Debug\ODLSystem.BusinessLayer.pdb
+E:\Project\My_Project\ODL_System\ODLSystem\ODLSystem.BusinessLayer\bin\Debug\ODLSystem.Library.Common.dll
+E:\Project\My_Project\ODL_System\ODLSystem\ODLSystem.BusinessLayer\bin\Debug\ODLSystem.Library.Common.pdb
+D:\Ratikant\Personal\@JICA\WATCO\ODLSystem.BusinessLayer\bin\Debug\ODLSystem.BusinessLayer.dll
+D:\Ratikant\Personal\@JICA\WATCO\ODLSystem.BusinessLayer\bin\Debug\ODLSystem.BusinessLayer.pdb
+D:\Ratikant\Personal\@JICA\WATCO\ODLSystem.BusinessLayer\bin\Debug\ODLSystem.Library.Common.dll
+D:\Ratikant\Personal\@JICA\WATCO\ODLSystem.BusinessLayer\bin\Debug\ODLSystem.PersistenceLayer.dll
+D:\Ratikant\Personal\@JICA\WATCO\ODLSystem.BusinessLayer\bin\Debug\ODLSystem.DatabaseHelper.dll
+D:\Ratikant\Personal\@JICA\WATCO\ODLSystem.BusinessLayer\bin\Debug\ODLSystem.Library.Common.pdb
+D:\Ratikant\Personal\@JICA\WATCO\ODLSystem.BusinessLayer\bin\Debug\ODLSystem.PersistenceLayer.pdb
+D:\Ratikant\Personal\@JICA\WATCO\ODLSystem.BusinessLayer\bin\Debug\ODLSystem.DatabaseHelper.pdb
+D:\Ratikant\Personal\@JICA\WATCO\ODLSystem.BusinessLayer\obj\Debug\ODLSystem.BusinessLayer.csprojAssemblyReference.cache
+D:\Ratikant\Personal\@JICA\WATCO\ODLSystem.BusinessLayer\obj\Debug\ODLSystem.BusinessLayer.csproj.CoreCompileInputs.cache
+D:\Ratikant\Personal\@JICA\WATCO\ODLSystem.BusinessLayer\obj\Debug\ODLSystem.BusinessLayer.csproj.CopyComplete
+D:\Ratikant\Personal\@JICA\WATCO\ODLSystem.BusinessLayer\obj\Debug\ODLSystem.BusinessLayer.dll
+D:\Ratikant\Personal\@JICA\WATCO\ODLSystem.BusinessLayer\obj\Debug\ODLSystem.BusinessLayer.pdb
+E:\@JICA\WATCOWeb\ODLSystem.BusinessLayer\bin\Debug\ODLSystem.BusinessLayer.dll
+E:\@JICA\WATCOWeb\ODLSystem.BusinessLayer\bin\Debug\ODLSystem.BusinessLayer.pdb
+E:\@JICA\WATCOWeb\ODLSystem.BusinessLayer\bin\Debug\ODLSystem.Library.Common.dll
+E:\@JICA\WATCOWeb\ODLSystem.BusinessLayer\bin\Debug\ODLSystem.PersistenceLayer.dll
+E:\@JICA\WATCOWeb\ODLSystem.BusinessLayer\bin\Debug\ODLSystem.DatabaseHelper.dll
+E:\@JICA\WATCOWeb\ODLSystem.BusinessLayer\bin\Debug\ODLSystem.Library.Common.pdb
+E:\@JICA\WATCOWeb\ODLSystem.BusinessLayer\bin\Debug\ODLSystem.PersistenceLayer.pdb
+E:\@JICA\WATCOWeb\ODLSystem.BusinessLayer\bin\Debug\ODLSystem.DatabaseHelper.pdb
+E:\@JICA\WATCOWeb\ODLSystem.BusinessLayer\obj\Debug\ODLSystem.BusinessLayer.csprojAssemblyReference.cache
+E:\@JICA\WATCOWeb\ODLSystem.BusinessLayer\obj\Debug\ODLSystem.BusinessLayer.csproj.CoreCompileInputs.cache
+E:\@JICA\WATCOWeb\ODLSystem.BusinessLayer\obj\Debug\ODLSystem.BusinessLayer.csproj.CopyComplete
+E:\@JICA\WATCOWeb\ODLSystem.BusinessLayer\obj\Debug\ODLSystem.BusinessLayer.dll
+E:\@JICA\WATCOWeb\ODLSystem.BusinessLayer\obj\Debug\ODLSystem.BusinessLayer.pdb
+E:\@JICA\WATCOWeb\ODLSystem.BusinessLayer\bin\Debug\Npgsql.dll
+D:\Ratikant\Personal\@JICA\WATCOWeb\ODLSystem.BusinessLayer\bin\Debug\ODLSystem.BusinessLayer.dll
+D:\Ratikant\Personal\@JICA\WATCOWeb\ODLSystem.BusinessLayer\bin\Debug\ODLSystem.BusinessLayer.pdb
+D:\Ratikant\Personal\@JICA\WATCOWeb\ODLSystem.BusinessLayer\bin\Debug\ODLSystem.DatabaseHelper.dll
+D:\Ratikant\Personal\@JICA\WATCOWeb\ODLSystem.BusinessLayer\bin\Debug\ODLSystem.Library.Common.dll
+D:\Ratikant\Personal\@JICA\WATCOWeb\ODLSystem.BusinessLayer\bin\Debug\ODLSystem.PersistenceLayer.dll
+D:\Ratikant\Personal\@JICA\WATCOWeb\ODLSystem.BusinessLayer\bin\Debug\Npgsql.dll
+D:\Ratikant\Personal\@JICA\WATCOWeb\ODLSystem.BusinessLayer\bin\Debug\ODLSystem.Library.Common.pdb
+D:\Ratikant\Personal\@JICA\WATCOWeb\ODLSystem.BusinessLayer\bin\Debug\ODLSystem.PersistenceLayer.pdb
+D:\Ratikant\Personal\@JICA\WATCOWeb\ODLSystem.BusinessLayer\bin\Debug\ODLSystem.DatabaseHelper.pdb
+D:\Ratikant\Personal\@JICA\WATCOWeb\ODLSystem.BusinessLayer\obj\Debug\ODLSystem.BusinessLayer.csprojAssemblyReference.cache
+D:\Ratikant\Personal\@JICA\WATCOWeb\ODLSystem.BusinessLayer\obj\Debug\ODLSystem.BusinessLayer.csproj.CoreCompileInputs.cache
+D:\Ratikant\Personal\@JICA\WATCOWeb\ODLSystem.BusinessLayer\obj\Debug\ODLSystem.BusinessLayer.csproj.CopyComplete
+D:\Ratikant\Personal\@JICA\WATCOWeb\ODLSystem.BusinessLayer\obj\Debug\ODLSystem.BusinessLayer.dll
+D:\Ratikant\Personal\@JICA\WATCOWeb\ODLSystem.BusinessLayer\obj\Debug\ODLSystem.BusinessLayer.pdb
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\ODLSystem.BusinessLayer\bin\Debug\ODLSystem.BusinessLayer.dll
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\ODLSystem.BusinessLayer\bin\Debug\ODLSystem.BusinessLayer.pdb
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\ODLSystem.BusinessLayer\bin\Debug\ODLSystem.DatabaseHelper.dll
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\ODLSystem.BusinessLayer\bin\Debug\ODLSystem.Library.Common.dll
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\ODLSystem.BusinessLayer\bin\Debug\ODLSystem.PersistenceLayer.dll
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\ODLSystem.BusinessLayer\bin\Debug\Npgsql.dll
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\ODLSystem.BusinessLayer\bin\Debug\ODLSystem.Library.Common.pdb
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\ODLSystem.BusinessLayer\bin\Debug\ODLSystem.PersistenceLayer.pdb
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\ODLSystem.BusinessLayer\bin\Debug\ODLSystem.DatabaseHelper.pdb
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\ODLSystem.BusinessLayer\obj\Debug\ODLSystem.BusinessLayer.csprojAssemblyReference.cache
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\ODLSystem.BusinessLayer\obj\Debug\ODLSystem.BusinessLayer.csproj.CoreCompileInputs.cache
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\ODLSystem.BusinessLayer\obj\Debug\ODLSystem.BusinessLayer.csproj.CopyComplete
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\ODLSystem.BusinessLayer\obj\Debug\ODLSystem.BusinessLayer.dll
+D:\Ratikant\Personal\@JICA\Development\BBSR\WATCOWeb\ODLSystem.BusinessLayer\obj\Debug\ODLSystem.BusinessLayer.pdb
+C:\Users\Deepak\Downloads\WATCOWeb (1)\ODLSystem.BusinessLayer\bin\Debug\ODLSystem.BusinessLayer.dll
+C:\Users\Deepak\Downloads\WATCOWeb (1)\ODLSystem.BusinessLayer\bin\Debug\ODLSystem.BusinessLayer.pdb
+C:\Users\Deepak\Downloads\WATCOWeb (1)\ODLSystem.BusinessLayer\bin\Debug\ODLSystem.DatabaseHelper.dll
+C:\Users\Deepak\Downloads\WATCOWeb (1)\ODLSystem.BusinessLayer\bin\Debug\ODLSystem.Library.Common.dll
+C:\Users\Deepak\Downloads\WATCOWeb (1)\ODLSystem.BusinessLayer\bin\Debug\ODLSystem.PersistenceLayer.dll
+C:\Users\Deepak\Downloads\WATCOWeb (1)\ODLSystem.BusinessLayer\bin\Debug\Npgsql.dll
+C:\Users\Deepak\Downloads\WATCOWeb (1)\ODLSystem.BusinessLayer\bin\Debug\ODLSystem.Library.Common.pdb
+C:\Users\Deepak\Downloads\WATCOWeb (1)\ODLSystem.BusinessLayer\bin\Debug\ODLSystem.PersistenceLayer.pdb
+C:\Users\Deepak\Downloads\WATCOWeb (1)\ODLSystem.BusinessLayer\bin\Debug\ODLSystem.DatabaseHelper.pdb
+C:\Users\Deepak\Downloads\WATCOWeb (1)\ODLSystem.BusinessLayer\obj\Debug\ODLSystem.BusinessLayer.csprojAssemblyReference.cache
+C:\Users\Deepak\Downloads\WATCOWeb (1)\ODLSystem.BusinessLayer\obj\Debug\ODLSystem.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Deepak\Downloads\WATCOWeb (1)\ODLSystem.BusinessLayer\obj\Debug\ODLSystem.BusinessLayer.csproj.CopyComplete
+C:\Users\Deepak\Downloads\WATCOWeb (1)\ODLSystem.BusinessLayer\obj\Debug\ODLSystem.BusinessLayer.dll
+C:\Users\Deepak\Downloads\WATCOWeb (1)\ODLSystem.BusinessLayer\obj\Debug\ODLSystem.BusinessLayer.pdb

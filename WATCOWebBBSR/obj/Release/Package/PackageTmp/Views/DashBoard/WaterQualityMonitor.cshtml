@@ -1,0 +1,138 @@
+﻿
+@{
+    ViewBag.Title = "Water Quality Monitor";
+    ViewBag.SubTitle = "[ Region- " + (string)ViewBag.Region + " ]";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section Menu {
+    @Scripts.Render("~/Scripts/DashBoard/WaterQuality/menu")
+}
+@Styles.Render("~/AdminLTE/plugins/morris/css")
+@Styles.Render("~/AdminLTE/plugins/bootstrap-wysihtml5/css")
+<div class="row">
+    <div class="col-lg-4 col-xs-6">
+        <div class="small-box bg-aqua">
+            <div class="inner">
+                <h3>50</h3>
+                <p>No. Of Samples Collected Today</p>
+            </div>
+            <div class="icon">
+                <i class="ion ion-waterdrop"></i>
+            </div>
+            <a class="small-box-footer"><i class="fa fa-cog disabled"></i></a>
+        </div>
+    </div>
+    <div class="col-lg-4 col-xs-6">
+        <div class="small-box bg-green">
+            <div class="inner">
+                <h3>50</h3>
+                <p>No. Of Sample Tested Today</p>
+            </div>
+            <div class="icon">
+                <i class="ion ion-stats-bars"></i>
+            </div>
+            <a class="small-box-footer"><i class="fa fa-cog disabled"></i></a>
+        </div>
+    </div>
+    <div class="col-lg-4 col-xs-6">
+        <div class="small-box bg-light-blue">
+            <div class="inner">
+                <h3>2</h3>
+                <p>No. Of Sample Failed Today</p>
+            </div>
+            <div class="icon">
+                <i class="ion ion-stats-bars"></i>
+            </div>
+            <a class="small-box-footer"><i class="fa fa-cog disabled"></i></a>
+        </div>
+    </div>
+    
+    <div class="col-lg-4 col-xs-6">
+        <div class="small-box bg-light-blue">
+            <div class="inner">
+                <h3>50</h3>
+                <p>No. Of Sample Collected This Month</p>
+            </div>
+            <div class="icon">
+                <i class="ion ion-stats-bars"></i>
+            </div>
+            <a class="small-box-footer"><i class="fa fa-cog disabled"></i></a>
+        </div>
+    </div>
+    <div class="col-lg-4 col-xs-6">
+        <div class="small-box bg-lime-active">
+            <div class="inner">
+                <h3>50</h3>
+                <p>No Of Sample Tested This Month</p>
+            </div>
+            <div class="icon">
+                <i class="ion ion-stats-bars"></i>
+            </div>
+            <a class="small-box-footer"><i class="fa fa-cog disabled"></i></a>
+        </div>
+    </div>
+    <div class="col-lg-4 col-xs-6">
+        <div class="small-box bg-light-blue">
+            <div class="inner">
+                <h3>30</h3>
+                <p>No Of Sample Failed This Month</p>
+            </div>
+            <div class="icon">
+                <i class="ion ion-stats-bars"></i>
+            </div>
+            <a class="small-box-footer"><i class="fa fa-cog disabled"></i></a>
+        </div>
+    </div>    
+    <div class="col-lg-4 col-xs-6">
+        <div class="small-box bg-light-blue">
+            <div class="inner">
+                <h3>Ishaneswar</h3>
+                <p>Highest Failed Zone</p>
+            </div>
+            <div class="icon">
+                <i class="fa fa-users"></i>
+            </div>
+            <a class="small-box-footer"><i class="fa fa-cog disabled"></i></a>
+        </div>
+    </div>
+    <div class="col-lg-4 col-xs-6">
+        <div class="small-box bg-lime-active">
+            <div class="inner">
+                <h3>Ishaneswar</h3>
+                <p>Highest Success Zone</p>
+            </div>
+            <div class="icon">
+                <i class="fa fa-users"></i>
+            </div>
+            <a class="small-box-footer"><i class="fa fa-cog disabled"></i></a>
+        </div>
+    </div>
+</div>
+@*<div class="row">
+    <div class="col-md-12">
+        <div class="box">
+            <div class="nav-tabs-custom">
+                <ul class="nav nav-tabs pull-right">
+                    <li class="active"><a href="#bar-chart" data-toggle="tab">Bar</a></li>
+                    <li><a href="#stack-chart" data-toggle="tab">Stack</a></li>
+                    <li class="pull-left header">
+                        <i class="fa fa-inbox"></i>Weekly Complaints Status
+                    </li>
+                </ul>
+                <div class="tab-content no-padding">
+                    <div class="chart tab-pane active" id="bar-chart" style="position: relative; height: 300px;"></div>
+                    <div class="chart tab-pane" id="stack-chart" style="position: relative; height: 300px;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>*@
+@section Scripts {
+    @Scripts.Render("~/AdminLTE/plugins/jquery-ui/js")
+    <script>$.widget.bridge('uibutton', $.ui.button);</script>
+    @Scripts.Render("~/AdminLTE/plugins/bootstrap-wysihtml5/js")
+    @Scripts.Render("~/AdminLTE/plugins/knob/js")
+    @Scripts.Render("~/AdminLTE/plugins/raphael/js")
+    @Scripts.Render("~/AdminLTE/plugins/morris/js")
+    @Scripts.Render("~/Scripts/DashBoard/WaterQuality/data")
+}

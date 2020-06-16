@@ -1,0 +1,97 @@
+﻿
+@{
+    ViewBag.Title = "Dashboard Home";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section Menu {
+    @Scripts.Render("~/Scripts/DashBoard/Container/menu")
+}
+<div class="row">
+    <div class="col-lg-4 col-xs-6">
+        <div class="small-box bg-aqua">
+            <div class="inner">
+                <p>Water Supply</p>
+                <h3>9500 (Klt.)</h3>
+                <p>Supplied Today</p>
+            </div>
+            <div class="icon">
+                <i class="fa fa-tint"></i>
+            </div>
+            <a href="@Url.Action("WaterSupplyInfo", "DashBoard")" class="small-box-footer">More Information <i class="fa fa-arrow-circle-right"></i></a>
+        </div>
+    </div>
+    <div class="col-lg-4 col-xs-6">
+        <div class="small-box bg-green">
+            <div class="inner">
+                <p>Consumer</p>
+                <h3>439</h3>
+                <p>Total Consumer</p>
+            </div>
+            <div class="icon">
+                <i class="fa fa-user"></i>
+            </div>
+            <a href="@Url.Action("ConsumerInfo", "DashBoard")" class="small-box-footer">More Information <i class="fa fa-arrow-circle-right"></i></a>
+        </div>
+    </div>
+    <div class="col-lg-4 col-xs-6">
+        <div class="small-box bg-yellow">
+            <div class="inner">
+                <p>Assets</p>
+                <h3>532</h3>
+                <p>No. Of Assets</p>
+            </div>
+            <div class="icon">
+                <i class="ion ion-ios-analytics-outline"></i>
+            </div>
+            <a href="@Url.Action("AssetOEMActivity", "DashBoard")" class="small-box-footer">More Information <i class="fa fa-arrow-circle-right"></i></a>
+        </div>
+    </div>
+    <div class="col-lg-4 col-xs-6">
+        <div class="small-box bg-red">
+            <div class="inner">
+                <p>Quality & Test</p>
+                <h3>50</h3>
+                <p>Tests Conducted Today</p>
+            </div>
+            <div class="icon">
+                <i class="fa fa-signal"></i>
+            </div>
+            <a href="@Url.Action("WaterQualityMonitor", "DashBoard")" class="small-box-footer">More Information <i class="fa fa-arrow-circle-right"></i></a>
+        </div>
+    </div>
+    <div class="col-lg-4 col-xs-6">
+        <div class="small-box bg-blue">
+            <div class="inner">
+                <p>Consumer Grievance</p>
+                <h3>71</h3>
+                <p>Complaints Received</p>
+            </div>
+            <div class="icon">
+                <i class="fa fa-users"></i>
+            </div>
+            <a href="@Url.Action("ConsumerGrievance", "DashBoard")" class="small-box-footer">More Information <i class="fa fa-arrow-circle-right"></i></a>
+        </div>
+    </div>
+    <div class="col-lg-4 col-xs-6">
+        <div class="small-box bg-green-gradient">
+            <div class="inner">
+                <p>JalSathi</p>
+                <h3>338359(INR)</h3>
+                <p>Collected</p>
+            </div>
+            <div class="icon">
+                <i class="fa fa-rupee"></i>
+            </div>
+            <a href="@Url.Action("JalsathiPerform", "DashBoard")" class="small-box-footer">More Information <i class="fa fa-arrow-circle-right"></i></a>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    @Scripts.Render("~/AdminLTE/plugins/jquery-ui/js")
+    <script>$.widget.bridge('uibutton', $.ui.button);</script>
+    @Scripts.Render("~/AdminLTE/plugins/bootstrap-wysihtml5/js")
+    @Scripts.Render("~/AdminLTE/plugins/sparkline/js")
+    @Scripts.Render("~/AdminLTE/plugins/knob/js")
+    @Scripts.Render("~/AdminLTE/plugins/raphael/js")
+    @Scripts.Render("~/AdminLTE/plugins/morris/js")
+}
