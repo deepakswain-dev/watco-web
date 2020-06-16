@@ -9,6 +9,10 @@ namespace WATCOWebBBSR.Controllers
     [Authorize]
     public class HomeController : Controller
     {
+        public HomeController()
+        {
+                
+        }
         // GET: Home
         public ActionResult Index()
         {
