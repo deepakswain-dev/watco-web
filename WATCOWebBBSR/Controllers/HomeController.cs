@@ -9,14 +9,21 @@ namespace WATCOWebBBSR.Controllers
     [Authorize]
     public class HomeController : Controller
     {
+        #region Testing 
         public HomeController()
         {
-                
+
         }
         public HomeController(int test)
         {
 
         }
+
+        public HomeController(string rr)
+        {
+
+        } 
+        #endregion
         // GET: Home
         public ActionResult Index()
         {
