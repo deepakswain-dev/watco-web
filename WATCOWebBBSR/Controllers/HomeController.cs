@@ -22,7 +22,12 @@ namespace WATCOWebBBSR.Controllers
         public HomeController(string rr)
         {
 
-        } 
+        }
+
+        public HomeController(int value, string strValue)
+        {
+
+        }
         #endregion
         // GET: Home
         public ActionResult Index()
