@@ -9,6 +9,7 @@ namespace WATCOWebBBSR.Controllers
     {
         string cityName = "";//!String.IsNullOrEmpty(CoreUserAuthorizationDetail.SelectedCityName) ? CoreUserAuthorizationDetail.SelectedCityName : (string)Session["Region"];
 
+        string name = "Ratikant";
         public ActionResult Container()
         {
             cityName = !String.IsNullOrEmpty(CoreUserAuthorizationDetail.SelectedCityName) ? CoreUserAuthorizationDetail.SelectedCityName : (string)Session["Region"];
