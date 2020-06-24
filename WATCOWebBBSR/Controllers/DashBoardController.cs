@@ -7,6 +7,10 @@ namespace WATCOWebBBSR.Controllers
     [Authorize]
     public class DashBoardController : Controller
     {
+        public DashBoardController()
+        {
+
+        }
         string cityName = "";//!String.IsNullOrEmpty(CoreUserAuthorizationDetail.SelectedCityName) ? CoreUserAuthorizationDetail.SelectedCityName : (string)Session["Region"];
 
         string name = "Ratikant";
