@@ -1,1 +1,176 @@
-﻿
+﻿@model ODLSystem.Library.Common.EntityModel.PLCEntityModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@Styles.Render("~/AdminLTE/plugins/datepicker/css")
+    <script src="~/Scripts/jquery-3.3.1.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#dtPickReadingDate").datepicker();
+    });
+</script>
+<script type="text/javascript">
+
+    function addPLCEntry() {
+        $("#lblerrorBody").empty();
+        var PLCEntityModel = {
+            PilotZone: $("#PilotZone").val(),
+            DistributionSource: $("#DistributionSource").val(),
+            ReadingDate: $("#ReadingDate").val(),
+            ESRLevel: $("#ESRLevel").val(),
+            FlowPressure: $("#FlowPressure").val(),
+            ChlorineAnalyzer: $("#ChlorineAnalyzer").val(),
+            LastWaterFlowReading: $("#LastWaterFlowReading").val(),
+            TotalWater: $("#TotalWater").val(),
+        };
+        if (PLCEntityModel.TotalWater === "") {
+            $("#lblerrorBody").text('TotalWater can not be emapty.');
+            $('#errorModal').modal('show');
+            return false;
+        }
+
+        if (PLCEntityModel.PilotZone === "") {
+            $("#lblerrorBody").text('Please select Pilot Zone.');
+            $('#errorModal').modal('show');
+            return false;
+        }
+        if (PLCEntityModel.DistributionSource === "") {
+            $("#lblerrorBody").text('Please select Distribution Source.');
+            $('#errorModal').modal('show');
+            return false;
+        }
+        else {
+            $.ajax({
+                type: 'POST',
+                url: "/PLCData/PLCEntry",
+                contentType: 'application/json; charset=utf-8',
+                data: JSON.stringify(PLCEntityModel),
+                dataType: 'html',
+                success: function (data) {
+                    if (data === "Success") {
+                        clearField();
+                        $('#successModal').modal('show');
+                    }
+                    if (data === "Error") {
+                        $("#lblerrorBody").text('you missed some filed please check.');
+                        $('#errorModal').modal('show');
+                    }
+                },
+                error: function (xhr, status, error) {
+                    $("#lblerrorBody").text('Something went wrong. Please try again.');
+                    $('#errorModal').modal('show');
+                }
+            });
+        }
+    }
+    function clearField() {
+        $("#PilotZone").val('');
+        $("#DistributionSource").val('');
+        $("#ReadingDate").val('');
+        $("#ESRLevel").val('');
+        $("#FlowPressure").val('');
+        $("#ChlorineAnalyzer").val('');
+        $("#LastWaterFlowReading").val('');
+        $("#TotalWater").val('');
+    }
+</script>
+
+<div class="form-horizontal">
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <div class="form-group">
+        @Html.LabelFor(model => model.PilotZone, htmlAttributes: new { @class = "control-label col-md-4" })
+        <div class="col-md-6">
+            @Html.DropDownList("PilotZone", (IEnumerable<SelectListItem>)ViewBag.PilotZone, "Select", new { id = "PilotZone", @class = "form-control" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.DistributionSource, htmlAttributes: new { @class = "control-label col-md-4" })
+        <div class="col-md-6">
+            @Html.DropDownList("DistributionSource", (IEnumerable<SelectListItem>)ViewBag.DistributionSource, "Select", new { id = "DistributionSource", @class = "form-control" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.ReadingDate, htmlAttributes: new { @class = "control-label col-md-4" })
+        <div class="col-md-6">
+            <div class="input-group date" id="dtPickReadingDate">
+                @Html.EditorFor(model => model.ReadingDate, new { htmlAttributes = new { id = "ReadingDate", @class = "form-control" } })
+                <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.ESRLevel, htmlAttributes: new { @class = "control-label col-md-4" })
+        <div class="col-md-6">
+            @Html.EditorFor(model => model.ESRLevel, new { htmlAttributes = new { type = "number", id = "ESRLevel", @class = "form-control" } })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.FlowPressure, htmlAttributes: new { @class = "control-label col-md-4" })
+        <div class="col-md-6">
+            @Html.EditorFor(model => model.FlowPressure, new { htmlAttributes = new { type = "number", id = "FlowPressure", @class = "form-control" } })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.ChlorineAnalyzer, htmlAttributes: new { @class = "control-label col-md-4" })
+        <div class="col-md-6">
+            @Html.EditorFor(model => model.ChlorineAnalyzer, new { htmlAttributes = new { type = "number", id = "ChlorineAnalyzer", @class = "form-control" } })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.LastWaterFlowReading, htmlAttributes: new { @class = "control-label col-md-4" })
+        <div class="col-md-6">
+            @Html.EditorFor(model => model.LastWaterFlowReading, new { htmlAttributes = new { type = "number", id = "LastWaterFlowReading", @class = "form-control" } })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.TotalWater, htmlAttributes: new { @class = "control-label col-md-4" })
+        <div class="col-md-6">
+            @Html.EditorFor(model => model.TotalWater, new { htmlAttributes = new { type = "number", id = "TotalWater", @class = "form-control" } })
+
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-4 col-md-6">
+            <input type="submit" value="Add Data" id="btnaddPLC" onclick="addPLCEntry();" style="width:100px;" class="btn btn-primary pull-right" />
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="successModal" role="dialog">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header btn-success">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Success!!!</h4>
+            </div>
+            <div class="modal-body">
+                <p>Record inserted successfully.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="errorModal" role="dialog">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header btn-danger">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Error!!!</h4>
+            </div>
+            <div class="modal-body">
+                <label id="lblerrorBody"></label>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    @Scripts.Render("~/AdminLTE/plugins/datepicker/js")
+}

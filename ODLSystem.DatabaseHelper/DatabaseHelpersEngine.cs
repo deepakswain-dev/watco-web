@@ -39,23 +39,23 @@ namespace ODLSystem.DatabaseHelper
             bool isSuccess = false;
             try
             {
-                using (SqlConnection objSqlConnection = new SqlConnection(ODLConnectionString))
+                using (NpgsqlConnection objNpgsqlConnection = new NpgsqlConnection(ODLConnectionString))
                 {
-                    if (objSqlConnection.State != ConnectionState.Open)
+                    if (objNpgsqlConnection.State != ConnectionState.Open)
                     {
-                        objSqlConnection.Open();
+                        objNpgsqlConnection.Open();
                     }
 
-                    using (SqlCommand objSqlCommand = new SqlCommand(prcedureName, objSqlConnection))
+                    using (NpgsqlCommand objNpgsqlCommand = new NpgsqlCommand(prcedureName, objNpgsqlConnection))
                     {
-                        objSqlCommand.CommandType = CommandType.StoredProcedure;
+                        objNpgsqlCommand.CommandType = CommandType.StoredProcedure;
 
                         if (dbParams != null)
                         {
-                            objSqlCommand.Parameters.AddRange(dbParams);
+                            objNpgsqlCommand.Parameters.AddRange(dbParams);
                         }
 
-                        objSqlCommand.ExecuteNonQuery();
+                        objNpgsqlCommand.ExecuteNonQuery();
                         isSuccess = true;
                     }
                 }
@@ -78,19 +78,19 @@ namespace ODLSystem.DatabaseHelper
             DataTable objDataTable = new DataTable();
             try
             {
-                using (SqlConnection objSqlConnection = new SqlConnection(ODLConnectionString))
+                using (NpgsqlConnection objNpgsqlConnection = new NpgsqlConnection(ODLConnectionString))
                 {
-                    if (objSqlConnection.State != ConnectionState.Open) objSqlConnection.Open();
+                    if (objNpgsqlConnection.State != ConnectionState.Open) objNpgsqlConnection.Open();
 
-                    using (SqlCommand objSqlCommand = new SqlCommand(prcedureName, objSqlConnection))
+                    using (NpgsqlCommand objNpgsqlCommand = new NpgsqlCommand(prcedureName, objNpgsqlConnection))
                     {
-                        objSqlCommand.CommandType = CommandType.StoredProcedure;
+                        objNpgsqlCommand.CommandType = CommandType.StoredProcedure;
                         if (dbParams != null)
                         {
-                            objSqlCommand.Parameters.AddRange(dbParams);
+                            objNpgsqlCommand.Parameters.AddRange(dbParams);
                         }
 
-                        using (SqlDataReader ndr = objSqlCommand.ExecuteReader(CommandBehavior.Default))
+                        using (NpgsqlDataReader ndr = objNpgsqlCommand.ExecuteReader(CommandBehavior.Default))
                         {
                             if (ndr.HasRows)
                             {
@@ -118,19 +118,19 @@ namespace ODLSystem.DatabaseHelper
             DataTable objDataTable = new DataTable();
             try
             {
-                using (SqlConnection objSqlConnection = new SqlConnection(ODLConnectionString))
+                using (NpgsqlConnection objNpgsqlConnection = new NpgsqlConnection(ODLConnectionString))
                 {
-                    if (objSqlConnection.State != ConnectionState.Open) objSqlConnection.Open();
+                    if (objNpgsqlConnection.State != ConnectionState.Open) objNpgsqlConnection.Open();
 
-                    using (SqlCommand objSqlCommand = new SqlCommand(prcedureName, objSqlConnection))
+                    using (NpgsqlCommand objNpgsqlCommand = new NpgsqlCommand(prcedureName, objNpgsqlConnection))
                     {
-                        objSqlCommand.CommandType = CommandType.StoredProcedure;
+                        objNpgsqlCommand.CommandType = CommandType.StoredProcedure;
                         if (dbParams != null)
                         {
-                            objSqlCommand.Parameters.AddRange(dbParams);
+                            objNpgsqlCommand.Parameters.AddRange(dbParams);
                         }
 
-                        using (SqlDataReader ndr = objSqlCommand.ExecuteReader(CommandBehavior.Default))
+                        using (NpgsqlDataReader ndr = objNpgsqlCommand.ExecuteReader(CommandBehavior.Default))
                         {
                             if (ndr.HasRows)
                             {
@@ -158,22 +158,22 @@ namespace ODLSystem.DatabaseHelper
             int returnString = 0;
             try
             {
-                using (SqlConnection ncon = new SqlConnection(ODLConnectionString))
+                using (NpgsqlConnection ncon = new NpgsqlConnection(ODLConnectionString))
                 {
                     if (ncon.State != ConnectionState.Open)
                     {
                         ncon.Open();
                     }
 
-                    using (SqlCommand objSqlCommand = new SqlCommand(prcedureName, ncon))
+                    using (NpgsqlCommand objNpgsqlCommand = new NpgsqlCommand(prcedureName, ncon))
                     {
 
-                        objSqlCommand.CommandType = CommandType.StoredProcedure;
+                        objNpgsqlCommand.CommandType = CommandType.StoredProcedure;
                         if (dbParams != null)
                         {
-                            objSqlCommand.Parameters.AddRange(dbParams);
+                            objNpgsqlCommand.Parameters.AddRange(dbParams);
                         }
-                        using (SqlDataReader ndr = objSqlCommand.ExecuteReader(CommandBehavior.Default))
+                        using (NpgsqlDataReader ndr = objNpgsqlCommand.ExecuteReader(CommandBehavior.Default))
                         {
                             DataTable objDataTable = new DataTable();
                             if (ndr.HasRows)
@@ -208,21 +208,21 @@ namespace ODLSystem.DatabaseHelper
             bool isSuccess = false;
             try
             {
-                using (SqlConnection objSqlConnection = new SqlConnection(ODLConnectionString))
+                using (NpgsqlConnection objNpgsqlConnection = new NpgsqlConnection(ODLConnectionString))
                 {
-                    if (objSqlConnection.State != ConnectionState.Open)
+                    if (objNpgsqlConnection.State != ConnectionState.Open)
                     {
-                        objSqlConnection.Open();
+                        objNpgsqlConnection.Open();
                     }
 
-                    using (SqlCommand objSqlCommand = new SqlCommand(prcedureName, objSqlConnection))
+                    using (NpgsqlCommand objNpgsqlCommand = new NpgsqlCommand(prcedureName, objNpgsqlConnection))
                     {
-                        objSqlCommand.CommandType = CommandType.StoredProcedure;
+                        objNpgsqlCommand.CommandType = CommandType.StoredProcedure;
                         if (dbParams != null)
                         {
-                            objSqlCommand.Parameters.AddRange(dbParams);
+                            objNpgsqlCommand.Parameters.AddRange(dbParams);
                         }
-                        objSqlCommand.ExecuteNonQuery();
+                        objNpgsqlCommand.ExecuteNonQuery();
                         isSuccess = true;
                     }
                 }
@@ -245,21 +245,21 @@ namespace ODLSystem.DatabaseHelper
             bool isSuccess = false;
             try
             {
-                using (SqlConnection objSqlConnection = new SqlConnection(ODLConnectionString))
+                using (NpgsqlConnection objNpgsqlConnection = new NpgsqlConnection(ODLConnectionString))
                 {
-                    if (objSqlConnection.State != ConnectionState.Open)
+                    if (objNpgsqlConnection.State != ConnectionState.Open)
                     {
-                        objSqlConnection.Open();
+                        objNpgsqlConnection.Open();
                     }
 
-                    using (SqlCommand objSqlCommand = new SqlCommand(prcedureName, objSqlConnection))
+                    using (NpgsqlCommand objNpgsqlCommand = new NpgsqlCommand(prcedureName, objNpgsqlConnection))
                     {
-                        objSqlCommand.CommandType = CommandType.StoredProcedure;
+                        objNpgsqlCommand.CommandType = CommandType.StoredProcedure;
                         if (dbParams != null)
                         {
-                            objSqlCommand.Parameters.AddRange(dbParams);
+                            objNpgsqlCommand.Parameters.AddRange(dbParams);
                         }
-                        objSqlCommand.ExecuteNonQuery();
+                        objNpgsqlCommand.ExecuteNonQuery();
                         isSuccess = true;
                     }
                 }
@@ -283,23 +283,23 @@ namespace ODLSystem.DatabaseHelper
             bool isSuccess = false;
             try
             {
-                using (SqlConnection objSqlConnection = new SqlConnection(ODLConnectionString))
+                using (NpgsqlConnection objNpgsqlConnection = new NpgsqlConnection(ODLConnectionString))
                 {
-                    if (objSqlConnection.State != ConnectionState.Open)
+                    if (objNpgsqlConnection.State != ConnectionState.Open)
                     {
-                        objSqlConnection.Open();
+                        objNpgsqlConnection.Open();
                     }
 
-                    using (SqlCommand objSqlCommand = new SqlCommand(prcedureName, objSqlConnection))
+                    using (NpgsqlCommand objNpgsqlCommand = new NpgsqlCommand(prcedureName, objNpgsqlConnection))
                     {
-                        objSqlCommand.CommandType = CommandType.StoredProcedure;
+                        objNpgsqlCommand.CommandType = CommandType.StoredProcedure;
 
                         if (dbParams != null)
                         {
-                            objSqlCommand.Parameters.AddRange(dbParams);
+                            objNpgsqlCommand.Parameters.AddRange(dbParams);
                         }
 
-                        if (objSqlCommand.ExecuteScalar() == null || (int)objSqlCommand.ExecuteScalar() > 0)
+                        if (objNpgsqlCommand.ExecuteScalar() == null || (int)objNpgsqlCommand.ExecuteScalar() > 0)
                         {
                             isSuccess = false;
                         }

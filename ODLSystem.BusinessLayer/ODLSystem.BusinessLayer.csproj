@@ -52,6 +52,7 @@
     <Compile Include="Dashboard\DashboardAssets.cs" />
     <Compile Include="Dashboard\DashboardConsumers.cs" />
     <Compile Include="ObjectFactory\PersistenceObjectFactory.cs" />
+    <Compile Include="PLCEntry\PLCEntryBusinessLayer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Report\AssetEntity.cs" />
     <Compile Include="Report\ConsumerEntity.cs" />
@@ -67,6 +68,9 @@
       <Project>{a5007921-4379-49b3-a39b-e56e46c89557}</Project>
       <Name>ODLSystem.PersistenceLayer</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

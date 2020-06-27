@@ -22,5 +22,8 @@ namespace ODLSystem.PersistenceLayer
     public class DBConstants
     {
         public const string ValidateUserCredential = "ValidateUserCredential";
+        public const string _1_insert_plcdata = "_1_insert_plcdata";
+        public const string _1_get_pilotzones = "_1_get_pilotzones";
+
     }
 }

@@ -34,6 +34,7 @@
       <HintPath>..\ODLSystem\App_Data\Npgsql.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -44,6 +45,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EntityModel\CoreUserDetail.cs" />
+    <Compile Include="EntityModel\MasterPilotZone.cs" />
+    <Compile Include="EntityModel\PLCEntityModel.cs" />
     <Compile Include="EntityModel\UsersEntityModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

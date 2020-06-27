@@ -30,6 +30,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Npgsql, Version=3.2.6.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ODLSystem.DatabaseHelper\bin\Debug\Npgsql.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -44,6 +48,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\AuthenticationPersistenceRepository.cs" />
     <Compile Include="Repository\Intrefaces\IAuthenticationPersistenceRepository.cs" />
+    <Compile Include="Repository\PLCEntry\PLCEntryPersistenceLayer.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ODLSystem.DatabaseHelper\ODLSystem.DatabaseHelper.csproj">
@@ -54,6 +59,9 @@
       <Project>{9FBDCF38-681B-4C16-A794-50F18BAB01E7}</Project>
       <Name>ODLSystem.Library.Common</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
