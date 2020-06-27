@@ -9,7 +9,7 @@ namespace WATCOWebBBSR.Controllers
     public class PLCDataController : Controller
     {
         // GET: PLCData
-        public ActionResult Index()
+        public ActionResult PLCEntry()
         {
             return View();
         }
