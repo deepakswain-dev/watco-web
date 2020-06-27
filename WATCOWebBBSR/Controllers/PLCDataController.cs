@@ -18,23 +18,6 @@ namespace WATCOWebBBSR.Controllers
         // GET: PLCData
         public ActionResult PLCEntry()
         {
-            List<SelectListItem> items = new List<SelectListItem>();
-            items.Add(new SelectListItem
-            {
-                Text = "01",
-                Value = "0"
-            });
-            items.Add(new SelectListItem
-            {
-                Text = "02",
-                Value = "1"
-            });
-            items.Add(new SelectListItem
-            {
-                Text = "03",
-                Value = "2"
-            });
-
             List<SelectListItem> items1 = new List<SelectListItem>();
             items1.Add(new SelectListItem
             {
