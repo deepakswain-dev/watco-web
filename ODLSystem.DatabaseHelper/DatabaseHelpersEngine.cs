@@ -271,6 +271,51 @@ namespace ODLSystem.DatabaseHelper
             return isSuccess;
         }
 
+        /// <summary>
+        /// ValidateUserCredential
+        /// </summary>
+        /// <param name="prcedureName">prcedureName</param>
+        /// <param name="dbParams">dbParams</param>
+        /// <returns></returns>
+        public bool ValidateRecord(string prcedureName, DbParameter[] dbParams)
+        {
+            bool isSuccess = false;
+            try
+            {
+                using (NpgsqlConnection objNpgsqlConnection = new NpgsqlConnection(ODLConnectionString))
+                {
+                    if (objNpgsqlConnection.State != ConnectionState.Open)
+                    {
+                        objNpgsqlConnection.Open();
+                    }
+
+                    using (NpgsqlCommand objNpgsqlCommand = new NpgsqlCommand(prcedureName, objNpgsqlConnection))
+                    {
+                        objNpgsqlCommand.CommandType = CommandType.StoredProcedure;
+
+                        if (dbParams != null)
+                        {
+                            objNpgsqlCommand.Parameters.AddRange(dbParams);
+                        }
+
+                        if (objNpgsqlCommand.ExecuteScalar() == null || (int)objNpgsqlCommand.ExecuteScalar() > 0)
+                        {
+                            isSuccess = false;
+                        }
+                        else
+                        {
+                            isSuccess = true;
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+            return isSuccess;
+        }
+
 
         /// <summary>
         /// ValidateUserCredential

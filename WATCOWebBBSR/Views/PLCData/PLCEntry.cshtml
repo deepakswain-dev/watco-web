@@ -5,14 +5,53 @@
 }
 
 @Styles.Render("~/AdminLTE/plugins/datepicker/css")
-    <script src="~/Scripts/jquery-3.3.1.js"></script>
+<script src="~/Scripts/jquery-3.3.1.js"></script>
 <script type="text/javascript">
     $(document).ready(function () {
-        $("#dtPickReadingDate").datepicker();
+        $("#dtPickReadingDate").datepicker({
+            format: 'dd/mm/yyyy'
+        });
     });
 </script>
 <script type="text/javascript">
+    function plcUpdate() {
+        $("#lblerrorBody").empty();
+        var PLCEntityModel = {
+            PilotZone: $("#PilotZone").val(),
+            DistributionSource: $("#DistributionSource").val(),
+            ReadingDate: $("#ReadingDate").val(),
+            ESRLevel: $("#ESRLevel").val(),
+            FlowPressure: $("#FlowPressure").val(),
+            ChlorineAnalyzer: $("#ChlorineAnalyzer").val(),
+            LastWaterFlowReading: $("#LastWaterFlowReading").val(),
+            TotalWater: $("#TotalWater").val(),
+        };
 
+        $.ajax({
+            type: 'POST',
+            url: "/PLCData/UpdatePLCEntry",
+            contentType: 'application/json; charset=utf-8',
+            data: JSON.stringify(PLCEntityModel),
+            dataType: 'html',
+            success: function (data) {
+                if (data === "Success") {
+                    clearField();
+                    $('#successModal').modal('show');
+                }
+                if (data === "Exist") {
+                    $('#existModal').modal('show');
+                }
+                if (data === "Error") {
+                    $("#lblerrorBody").text('you missed some filed please check.');
+                    $('#errorModal').modal('show');
+                }
+            },
+            error: function (xhr, status, error) {
+                $("#lblerrorBody").text('Something went wrong. Please try again.');
+                $('#errorModal').modal('show');
+            }
+        });
+    }
     function addPLCEntry() {
         $("#lblerrorBody").empty();
         var PLCEntityModel = {
@@ -41,6 +80,7 @@
             $('#errorModal').modal('show');
             return false;
         }
+
         else {
             $.ajax({
                 type: 'POST',
@@ -52,6 +92,9 @@
                     if (data === "Success") {
                         clearField();
                         $('#successModal').modal('show');
+                    }
+                    if (data === "Exist") {
+                        $('#existModal').modal('show');
                     }
                     if (data === "Error") {
                         $("#lblerrorBody").text('you missed some filed please check.');
@@ -167,6 +210,23 @@
             </div>
             <div class="modal-body">
                 <label id="lblerrorBody"></label>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="existModal" role="dialog">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header btn-warning">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Warning!!!</h4>
+            </div>
+            <div class="modal-body">
+                <p>PLC data already exist. Do you want to over write it?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
+                <button type="button" class="btn btn-success" onclick="plcUpdate();">Yes</button>
             </div>
         </div>
     </div>

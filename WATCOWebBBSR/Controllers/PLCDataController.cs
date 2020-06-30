@@ -47,7 +47,7 @@ namespace WATCOWebBBSR.Controllers
                 Value = "ESR"
             });
            
-            ViewBag.PilotZone = new SelectList(pLCEntryBusinessLayer.GetPilotList(), "ZoneId", "ZoneName");
+            ViewBag.PilotZone = new SelectList(items1, "Value", "Text");
             ViewBag.DistributionSource = new SelectList(items1, "Value", "Text");
             return View();
         }
@@ -60,6 +60,10 @@ namespace WATCOWebBBSR.Controllers
                 return Content("Error");
             }
 
+            if (pLCEntryBusinessLayer.CheckIsPLCDataExist(pLCEntityModel.ReadingDate))
+            {
+                return Content("Exist");
+            }
             else
             {
                 var result = pLCEntryBusinessLayer.insertPLCEntry(pLCEntityModel);
@@ -84,6 +88,27 @@ namespace WATCOWebBBSR.Controllers
             pLCEntityModel.LastWaterFlowReading = 0;
             pLCEntityModel.TotalWater = 0;
         }
+
+        [HttpPost]
+        public ActionResult UpdatePLCEntry(PLCEntityModel pLCEntityModel)
+        {
+            if (String.IsNullOrEmpty(pLCEntityModel.PilotZone) || String.IsNullOrEmpty(pLCEntityModel.DistributionSource) || pLCEntityModel.TotalWater == 0)
+            {
+                return Content("Error");
+            }
+            else
+            {
+                var result = pLCEntryBusinessLayer.UpdatePLCEntry(pLCEntityModel);
+
+                if (result)
+                {
+                    ClearAllField(pLCEntityModel);
+                    return Content("Success");
+                }
+            }
+            return View();
+        }
+
 
     }
 }

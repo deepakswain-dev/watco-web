@@ -24,6 +24,7 @@ namespace ODLSystem.PersistenceLayer
         public const string ValidateUserCredential = "ValidateUserCredential";
         public const string _1_insert_plcdata = "_1_insert_plcdata";
         public const string _1_get_pilotzones = "_1_get_pilotzones";
-
+        public const string _1_check_plcdata_exist = "_1_check_plcdata_exist";
+        public const string _1_update_plcdata = "_1_update_plcdata";
     }
 }

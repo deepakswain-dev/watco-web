@@ -44,6 +44,30 @@ namespace ODLSystem.PersistenceLayer.Repository.PLCEntry
             }
         }
 
+        public bool UpdatePLCEntry(PLCEntityModel pLCEntityModel)
+        {
+            try
+            {
+                DbParameter[] dbParams = new DbParameter[]
+            {
+                new NpgsqlParameter("@_zoneid", pLCEntityModel.PilotZone),
+                new NpgsqlParameter("@_distsource", pLCEntityModel.DistributionSource),
+                new NpgsqlParameter("@_readingdate", pLCEntityModel.ReadingDate),
+                new NpgsqlParameter("@_esrlevelmtr", pLCEntityModel.ESRLevel),
+                new NpgsqlParameter("@_flowpressure", pLCEntityModel.FlowPressure),
+                new NpgsqlParameter("@_chlorineanalyzerppm", pLCEntityModel.ChlorineAnalyzer),
+                new NpgsqlParameter("@_lastreadingmqh", pLCEntityModel.LastWaterFlowReading),
+                new NpgsqlParameter("@_totalwaterflowmq", pLCEntityModel.TotalWater),
+            };
+
+                return databaseHelpersEngine.UpdateRecordInDataTable(DBConstants._1_update_plcdata, dbParams);
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+        }
         public List<MasterPilotZone> GetPilotList()
         {
             List<MasterPilotZone> masterPilotZones = new List<MasterPilotZone>();
@@ -83,6 +107,23 @@ namespace ODLSystem.PersistenceLayer.Repository.PLCEntry
             }
 
             return objDataTable;
+        }
+
+        public bool CheckIsPLCDataExist(string date)
+        {
+            try
+            {
+                DbParameter[] dbParams = new DbParameter[]
+           {
+                new NpgsqlParameter("@_readingdate", date),
+           };
+                return databaseHelpersEngine.ValidateRecord(DBConstants._1_check_plcdata_exist, dbParams);
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
     }
 }

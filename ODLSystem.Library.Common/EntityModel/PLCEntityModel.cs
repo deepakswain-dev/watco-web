@@ -23,7 +23,7 @@ namespace ODLSystem.Library.Common.EntityModel
         public decimal ChlorineAnalyzer { get; set; }
         [Display(Name = "Last Water Flow Reading(MQ/h)")]
         public decimal LastWaterFlowReading { get; set; }
-        [Display(Name = "TotalWater(MQ)")]
+        [Display(Name = "Total Water Supplied(MQ)")]
         public decimal TotalWater { get; set; }
     }
 }

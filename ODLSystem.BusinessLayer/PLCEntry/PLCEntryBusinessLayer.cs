@@ -33,11 +33,41 @@ namespace ODLSystem.BusinessLayer.PLCEntry
             return result;
         }
 
+        public bool UpdatePLCEntry(PLCEntityModel pLCEntityModel)
+        {
+            bool result = false;
+
+            try
+            {
+                result = pLCEntryPersistenceLayer.UpdatePLCEntry(pLCEntityModel);
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+
+            return result;
+        }
+
         public List<MasterPilotZone> GetPilotList()
         {
             try
             {
                 return pLCEntryPersistenceLayer.GetPilotList();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
+
+        public bool CheckIsPLCDataExist(string date)
+        {
+            try
+            {
+                return pLCEntryPersistenceLayer.CheckIsPLCDataExist(date);
             }
             catch (Exception)
             {
