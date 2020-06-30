@@ -99,7 +99,7 @@ namespace ODLSystem.PersistenceLayer.Repository.PLCEntry
             DataTable objDataTable = new DataTable();
             try
             {
-                objDataTable = databaseHelpersEngine.GetUserDetails(DBConstants._1_get_pilotzones, null);
+                objDataTable = databaseHelpersEngine.GetDataTable(DBConstants._1_get_pilotzones, null);
             }
             catch (Exception)
             {
